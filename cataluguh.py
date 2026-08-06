@@ -1,0 +1,1 @@
+# Catalogo com fulme, album, personagem e figurinhas.
