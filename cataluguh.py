@@ -31,4 +31,7 @@ def listar_fiils():
         print(f"{indice + 1 } - {filme['tituly']}")
         print(f"     Á l b u u m : R$ {filme['preco_album']:.2f}")#2f faz o coiso aparecer em casa decimal
         print(f"     P r e ç o  d o  p a c o t u : R$ {filme['preco_pacote']:.2f}")
-    
+        print("      F i g u r i n h a s :")
+        for figurinha in filme['figurinhas']:
+            print(f"    {figurinha['numero']}--{figurinha['pewsornagem']['nome']}")
+                    #fgfgfgfgfgf
